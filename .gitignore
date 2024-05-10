@@ -2,3 +2,7 @@
 __pycache__/
 
 results/
+
+*venv/
+data/
+checkpoints/
