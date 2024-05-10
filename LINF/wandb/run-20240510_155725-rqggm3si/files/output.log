@@ -1,0 +1,91 @@
+config loaded.
+nll weight: 1.0, pixel weight: 1.0, vgg weight: 1.0
+use crop dataset for vgg loss
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/vgg19-dcbb9e9d.pth" to /root/.cache/torch/hub/checkpoints/vgg19-dcbb9e9d.pth
+
+ 75%|██████████████████████████████████████████████▍               | 410M/548M [00:02<00:00, 198MB/s]
+train dataset: sr-implicit-downsampled-fast-crop
+
+100%|██████████████████████████████████████████████████████████████| 548M/548M [00:02<00:00, 194MB/s]
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+/usr/local/lib/python3.10/dist-packages/torch/functional.py:507: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3549.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+device: cuda:0
+model: #params=1.6M
+lr: 0.0001
+train:   0%|                                                                | 0/1000 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

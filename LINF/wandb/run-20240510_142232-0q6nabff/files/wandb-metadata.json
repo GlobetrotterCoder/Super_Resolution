@@ -1,0 +1,87 @@
+{
+    "os": "Linux-6.1.58+-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-05-10T14:22:38.966238",
+    "startedAt": "2024-05-10T14:22:32.671576",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--config",
+        "configs/train-div2k/train_edsr-flow.yaml",
+        "--gpu",
+        "0",
+        "--name",
+        "edsr"
+    ],
+    "state": "running",
+    "program": "/content/drive/MyDrive/LINF/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/JNNNNYao/LINF.git",
+        "commit": "d911a5aceda554c85adecb8c65a1ef26b6fd93e5"
+    },
+    "email": null,
+    "root": "/content/drive/MyDrive/LINF",
+    "host": "adfef9af2fc0",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2249.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2249.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 225.83275985717773,
+            "used": 28.870193481445312
+        }
+    },
+    "memory": {
+        "total": 50.993690490722656
+    }
+}

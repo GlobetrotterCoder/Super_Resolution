@@ -1,0 +1,135 @@
+{
+    "os": "Linux-6.1.58+-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-05-09T22:48:58.707259",
+    "startedAt": "2024-05-09T22:48:58.169228",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--config",
+        "configs/train-div2k/train_edsr-flow.yaml",
+        "--gpu",
+        "0",
+        "--name",
+        "edsr"
+    ],
+    "state": "running",
+    "program": "/content/drive/MyDrive/LINF/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/JNNNNYao/LINF.git",
+        "commit": "d911a5aceda554c85adecb8c65a1ef26b6fd93e5"
+    },
+    "email": null,
+    "root": "/content/drive/MyDrive/LINF",
+    "host": "0f32803bd5bb",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2200.2180000000003,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.218,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 201.22513961791992,
+            "used": 33.777313232421875
+        }
+    },
+    "gpu": "NVIDIA L4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA L4",
+            "memory_total": 24152899584
+        }
+    ],
+    "memory": {
+        "total": 62.80431365966797
+    }
+}

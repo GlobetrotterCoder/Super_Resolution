@@ -1,0 +1,95 @@
+{
+    "os": "Linux-6.1.58+-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-05-10T14:28:59.755649",
+    "startedAt": "2024-05-10T14:28:55.649563",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--config",
+        "configs/train-div2k/train_edsr-flow.yaml",
+        "--gpu",
+        "0",
+        "--name",
+        "edsr"
+    ],
+    "state": "running",
+    "program": "/content/drive/MyDrive/LINF/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/JNNNNYao/LINF.git",
+        "commit": "d911a5aceda554c85adecb8c65a1ef26b6fd93e5"
+    },
+    "email": null,
+    "root": "/content/drive/MyDrive/LINF",
+    "host": "5d860f451b29",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2000.1399999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.14,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.14,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.14,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.14,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.14,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.14,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.14,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.14,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 201.22513961791992,
+            "used": 29.863788604736328
+        }
+    },
+    "gpu": "Tesla V100-SXM2-16GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-SXM2-16GB",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 50.993690490722656
+    }
+}

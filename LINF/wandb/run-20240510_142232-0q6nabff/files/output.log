@@ -1,0 +1,38 @@
+config loaded.
+nll weight: 1.0, pixel weight: 1.0, vgg weight: 1.0
+use crop dataset for vgg loss
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/vgg19-dcbb9e9d.pth" to /root/.cache/torch/hub/checkpoints/vgg19-dcbb9e9d.pth
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████| 548M/548M [00:29<00:00, 19.7MB/s]
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/LINF/train.py", line 394, in <module>
+    vgg = models.make({'name': 'VGGFeatureExtractor', 'args': {'feature_layer': 34, 'use_bn': False}}).cuda()
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 911, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 802, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 802, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 825, in _apply
+    param_applied = fn(param)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 911, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/usr/local/lib/python3.10/dist-packages/torch/cuda/__init__.py", line 302, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx

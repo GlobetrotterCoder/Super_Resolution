@@ -1,0 +1,244 @@
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.9M
+epoch 1/1000, train: total_loss=38.5286, nll=38.5286, pix_l=0.0000, vgg_l=0.0000, val: psnr=4.9604, 1.4m 1.4m/23.8h
+epoch 2/1000, train: total_loss=26.7485, nll=26.7485, pix_l=0.0000, vgg_l=0.0000, val: psnr=5.1795, 1.4m 2.8m/23.5h
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.9M
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.9M
+epoch 1/30, train: total_loss=1314112.0946, nll=55.1942, pix_l=1314053.3101, vgg_l=3.5871, val: psnr=4.8584, 3.8m 3.8m/1.9h
+epoch 2/30, train: total_loss=150970.0075, nll=54.1328, pix_l=150912.2836, vgg_l=3.5912, val: psnr=5.7013, 3.7m 7.5m/1.9h
+epoch 3/30, train: total_loss=76269.8341, nll=53.4974, pix_l=76212.7620, vgg_l=3.5749, val: psnr=5.6619, 3.7m 11.2m/1.9h
+epoch 4/30, train: total_loss=38558.9483, nll=53.0991, pix_l=38502.6670, vgg_l=3.1821, val: psnr=4.2561, 3.7m 14.9m/1.9h
+epoch 5/30, train: total_loss=19435.3286, nll=52.8291, pix_l=19379.3287, vgg_l=3.1708, val: psnr=4.2519, 3.7m 18.6m/1.9h
+epoch 6/30, train: total_loss=21028.8570, nll=52.4974, pix_l=20972.3256, vgg_l=4.0340, val: psnr=4.2779, 3.7m 22.3m/1.9h
+epoch 7/30, train: total_loss=11277.1706, nll=52.1122, pix_l=11221.8026, vgg_l=3.2559, val: psnr=4.3084, 3.7m 26.0m/1.9h
+epoch 8/30, train: total_loss=7869.5002, nll=51.7501, pix_l=7814.4273, vgg_l=3.3227, val: psnr=4.2073, 3.7m 29.7m/1.9h
+epoch 9/30, train: total_loss=4425.1776, nll=51.4011, pix_l=4370.3582, vgg_l=3.4182, val: psnr=5.6581, 3.7m 33.4m/1.9h
+epoch 10/30, train: total_loss=3894.3839, nll=51.0070, pix_l=3839.5762, vgg_l=3.8008, val: psnr=4.9593, 3.7m 37.2m/1.9h
+epoch 11/30, train: total_loss=1459.8033, nll=50.6933, pix_l=1405.2670, vgg_l=3.8430, val: psnr=5.7520, 3.7m 40.9m/1.9h
+epoch 12/30, train: total_loss=1194.1599, nll=50.4050, pix_l=1139.8569, vgg_l=3.8980, val: psnr=5.7088, 3.7m 44.6m/1.9h
+epoch 13/30, train: total_loss=974.4504, nll=49.9397, pix_l=920.3736, vgg_l=4.1371, val: psnr=4.3186, 3.7m 48.3m/1.9h
+epoch 14/30, train: total_loss=857.8262, nll=49.3664, pix_l=803.7030, vgg_l=4.7569, val: psnr=4.3101, 3.7m 52.0m/1.9h
+epoch 15/30, train: total_loss=613.9141, nll=48.7655, pix_l=559.9814, vgg_l=5.1671, val: psnr=5.1783, 3.7m 55.7m/1.9h
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+train dataset: size=16000
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+train dataset: size=100
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=800
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+epoch 1/30, train: total_loss=2779198025.1429, nll=62.4654, pix_l=2779198025.1429, vgg_l=4.3718, val: psnr=4.8787, 13.3s 13.3s/6.6m
+epoch 2/30, train: total_loss=1018663652.5714, nll=61.8106, pix_l=1018663616.0000, vgg_l=4.4308, val: psnr=4.8721, 5.6s 18.8s/4.7m
+epoch 3/30, train: total_loss=501265878.8571, nll=61.3849, pix_l=501265814.8571, vgg_l=4.4434, val: psnr=4.8687, 5.4s 24.3s/4.0m
+epoch 4/30, train: total_loss=297666619.4286, nll=61.1258, pix_l=297666555.4286, vgg_l=4.3398, val: psnr=4.8733, 5.5s 29.7s/3.7m
+epoch 5/30, train: total_loss=194104724.5714, nll=60.9589, pix_l=194104660.5714, vgg_l=4.3379, val: psnr=4.9279, 5.5s 35.2s/3.5m
+epoch 6/30, train: total_loss=132887344.0000, nll=60.8601, pix_l=132887275.4286, vgg_l=4.2884, val: psnr=4.8758, 5.4s 40.7s/3.4m
+epoch 7/30, train: total_loss=94710898.2857, nll=60.7909, pix_l=94710826.2857, vgg_l=4.2942, val: psnr=4.9055, 5.4s 46.1s/3.3m
+epoch 8/30, train: total_loss=66763665.1429, nll=60.7294, pix_l=66763597.7143, vgg_l=4.3290, val: psnr=4.9205, 5.5s 51.6s/3.2m
+epoch 9/30, train: total_loss=49004146.8571, nll=60.6864, pix_l=49004082.8571, vgg_l=4.3552, val: psnr=4.8916, 5.5s 57.1s/3.2m
+epoch 10/30, train: total_loss=36796560.5714, nll=60.6527, pix_l=36796496.5714, vgg_l=4.2599, val: psnr=4.9144, 5.4s 1.0m/3.1m
+epoch 11/30, train: total_loss=28286055.4286, nll=60.6283, pix_l=28285991.4286, vgg_l=4.2810, val: psnr=4.9403, 5.4s 1.1m/3.1m
+epoch 12/30, train: total_loss=22904400.5714, nll=60.6131, pix_l=22904336.5714, vgg_l=4.2163, val: psnr=4.9320, 5.5s 1.2m/3.1m
+epoch 13/30, train: total_loss=18868005.7143, nll=60.6018, pix_l=18867941.5714, vgg_l=4.3332, val: psnr=4.9416, 5.4s 1.3m/3.0m
+epoch 14/30, train: total_loss=15897507.4286, nll=60.5920, pix_l=15897442.7143, vgg_l=4.2261, val: psnr=4.9361, 5.5s 1.4m/3.0m
+epoch 15/30, train: total_loss=14062628.2857, nll=60.5840, pix_l=14062563.2857, vgg_l=4.3426, val: psnr=4.9008, 5.4s 1.5m/3.0m
+epoch 16/30, train: total_loss=12474595.0000, nll=60.5771, pix_l=12474530.0000, vgg_l=4.2266, val: psnr=4.9001, 5.5s 1.6m/3.0m
+epoch 17/30, train: total_loss=11009553.4286, nll=60.5710, pix_l=11009488.2857, vgg_l=4.2941, val: psnr=4.9091, 5.4s 1.7m/3.0m
+epoch 18/30, train: total_loss=9930777.4286, nll=60.5652, pix_l=9930712.4286, vgg_l=4.1753, val: psnr=4.8955, 5.4s 1.8m/3.0m
+epoch 19/30, train: total_loss=9013158.0000, nll=60.5596, pix_l=9013093.0000, vgg_l=4.1653, val: psnr=4.9088, 5.5s 1.9m/2.9m
+epoch 20/30, train: total_loss=7745246.1429, nll=60.5549, pix_l=7745181.2857, vgg_l=4.3273, val: psnr=4.8842, 5.4s 2.0m/2.9m
+epoch 21/30, train: total_loss=7690946.0714, nll=60.5502, pix_l=7690881.2857, vgg_l=4.2195, val: psnr=4.9076, 5.4s 2.0m/2.9m
+epoch 22/30, train: total_loss=6892636.5714, nll=60.5456, pix_l=6892571.6429, vgg_l=4.3310, val: psnr=4.9323, 5.4s 2.1m/2.9m
+epoch 23/30, train: total_loss=6518702.5000, nll=60.5416, pix_l=6518637.6429, vgg_l=4.3054, val: psnr=4.9091, 5.4s 2.2m/2.9m
+epoch 24/30, train: total_loss=5956931.2143, nll=60.5377, pix_l=5956866.5000, vgg_l=4.2381, val: psnr=4.8630, 5.4s 2.3m/2.9m
+epoch 25/30, train: total_loss=5767419.3571, nll=60.5340, pix_l=5767354.5714, vgg_l=4.3126, val: psnr=4.9162, 5.4s 2.4m/2.9m
+epoch 26/30, train: total_loss=5388348.5000, nll=60.5296, pix_l=5388283.7143, vgg_l=4.2849, val: psnr=4.8759, 5.4s 2.5m/2.9m
+epoch 27/30, train: total_loss=5179723.0714, nll=60.5248, pix_l=5179658.2143, vgg_l=4.3107, val: psnr=4.8821, 5.4s 2.6m/2.9m
+epoch 28/30, train: total_loss=4879428.9286, nll=60.5198, pix_l=4879364.0000, vgg_l=4.3529, val: psnr=4.8911, 5.5s 2.7m/2.9m
+epoch 29/30, train: total_loss=4662674.3571, nll=60.5153, pix_l=4662609.5000, vgg_l=4.3196, val: psnr=4.8951, 5.4s 2.8m/2.9m
+epoch 30/30, train: total_loss=4640832.0000, nll=60.5116, pix_l=4640767.3571, vgg_l=4.1813, val: psnr=4.8826, 5.5s 2.9m/2.9m
+train dataset: size=16120
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+epoch 1/30, train: total_loss=1494746.9992, nll=52.9072, pix_l=1494688.9480, vgg_l=5.1557, val: psnr=4.9343, 3.9m 3.9m/1.9h
+epoch 2/30, train: total_loss=68317.1760, nll=52.5503, pix_l=68259.4691, vgg_l=5.1566, val: psnr=4.8800, 3.7m 7.6m/1.9h
+epoch 3/30, train: total_loss=35552.5668, nll=52.3058, pix_l=35495.0909, vgg_l=5.1701, val: psnr=4.9136, 3.7m 11.3m/1.9h
+epoch 4/30, train: total_loss=19626.1380, nll=52.1377, pix_l=19568.8120, vgg_l=5.1882, val: psnr=5.0053, 3.8m 15.1m/1.9h
+epoch 5/30, train: total_loss=9625.1446, nll=52.1104, pix_l=9567.8090, vgg_l=5.2253, val: psnr=4.8906, 3.8m 18.9m/1.9h
+epoch 6/30, train: total_loss=2068.3483, nll=52.3303, pix_l=2010.6702, vgg_l=5.3478, val: psnr=4.8462, 3.8m 22.7m/1.9h
+epoch 7/30, train: total_loss=1258.8851, nll=52.2379, pix_l=1201.2422, vgg_l=5.4051, val: psnr=4.9574, 3.8m 26.5m/1.9h
+epoch 8/30, train: total_loss=1060.1226, nll=52.0711, pix_l=1002.6416, vgg_l=5.4099, val: psnr=4.9629, 3.8m 30.3m/1.9h
+epoch 9/30, train: total_loss=911.6243, nll=51.8626, pix_l=854.3222, vgg_l=5.4395, val: psnr=4.9995, 3.8m 34.1m/1.9h
+epoch 10/30, train: total_loss=767.4494, nll=51.5994, pix_l=710.3989, vgg_l=5.4511, val: psnr=5.1520, 3.7m 37.8m/1.9h
+epoch 11/30, train: total_loss=669.1439, nll=51.2946, pix_l=612.3785, vgg_l=5.4708, val: psnr=4.9259, 3.8m 41.6m/1.9h
+epoch 12/30, train: total_loss=527.8000, nll=50.9892, pix_l=471.3323, vgg_l=5.4785, val: psnr=4.9236, 3.8m 45.4m/1.9h
+epoch 13/30, train: total_loss=398.7511, nll=50.6308, pix_l=342.6390, vgg_l=5.4813, val: psnr=4.9820, 3.8m 49.2m/1.9h
+epoch 14/30, train: total_loss=311.4693, nll=50.2452, pix_l=255.7449, vgg_l=5.4791, val: psnr=5.2399, 3.8m 53.0m/1.9h
+epoch 15/30, train: total_loss=244.0478, nll=49.8145, pix_l=188.7669, vgg_l=5.4664, val: psnr=5.0340, 3.8m 56.8m/1.9h
+epoch 16/30, train: total_loss=196.0461, nll=49.3649, pix_l=141.2301, vgg_l=5.4511, val: psnr=4.6321, 3.8m 1.0h/1.9h
+train dataset: size=16120
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+val dataset: size=1600
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+model: #params=1.6M
+epoch 1/30, train: total_loss=1074374499.8532, nll=61.3360, pix_l=1074374438.6786, vgg_l=5.4822, val: psnr=5.4187, 3.9m 3.9m/2.0h
+epoch 2/30, train: total_loss=28464830.7232, nll=60.7149, pix_l=28464765.2917, vgg_l=5.4861, val: psnr=4.7007, 3.8m 7.7m/1.9h
+epoch 3/30, train: total_loss=11803595.3328, nll=60.4457, pix_l=11803529.6210, vgg_l=5.4861, val: psnr=5.1424, 3.8m 11.5m/1.9h
+epoch 4/30, train: total_loss=4076217.5515, nll=60.4971, pix_l=4076151.5282, vgg_l=5.4867, val: psnr=4.9785, 3.8m 15.3m/1.9h
+epoch 5/30, train: total_loss=104851.5128, nll=60.8344, pix_l=104785.8794, vgg_l=4.8001, val: psnr=4.9421, 3.8m 19.1m/1.9h

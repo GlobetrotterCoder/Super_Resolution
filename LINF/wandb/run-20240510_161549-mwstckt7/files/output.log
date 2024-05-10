@@ -1,0 +1,147 @@
+config loaded.
+nll weight: 1.0, pixel weight: 1.0, vgg weight: 1.0
+use crop dataset for vgg loss
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/vgg19-dcbb9e9d.pth" to /root/.cache/torch/hub/checkpoints/vgg19-dcbb9e9d.pth
+
+ 71%|████████████████████████████████████████████                  | 389M/548M [00:02<00:00, 187MB/s]
+train dataset: sr-implicit-downsampled-fast-crop
+
+100%|██████████████████████████████████████████████████████████████| 548M/548M [00:03<00:00, 185MB/s]
+train dataset: size=100
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+/usr/local/lib/python3.10/dist-packages/torch/functional.py:507: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3549.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+val dataset: size=800
+  inp: shape=(3, 48, 48)
+  coord: shape=(48, 48, 2)
+  cell: shape=(2,)
+  gt: shape=(3, 48, 48)
+device: cuda:0
+model: #params=1.6M
+lr: 0.0001
+train:   0%|                                                                   | 0/7 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+
+train:  14%|████████▍                                                  | 1/7 [00:04<00:24,  4.04s/it]
+val:   0%|                                                                    | 0/50 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+
+
+val: 100%|███████████████████████████████████████████████████████████| 50/50 [00:03<00:00, 14.16it/s]
+epoch 1/30, train: total_loss=2779198025.1429, nll=62.4654, pix_l=2779198025.1429, vgg_l=4.3718, val: psnr=4.8787, 13.3s 13.3s/6.6m
+
+
+train:   0%|                                                                   | 0/7 [00:00<?, ?it/s]
+
+
+val:  70%|█████████████████████████████████████████▎                 | 35/50 [00:02<00:01, 13.73it/s]
+
+
+
+val:  86%|██████████████████████████████████████████████████▋        | 43/50 [00:03<00:00, 13.70it/s]
+
+
+
+train:   0%|                                                                   | 0/7 [00:00<?, ?it/s]
+
+
+
+train:   0%|                                                                   | 0/7 [00:00<?, ?it/s]
+
+
+val:  62%|████████████████████████████████████▌                      | 31/50 [00:02<00:01, 13.78it/s]
+
+
+
+val:  78%|██████████████████████████████████████████████             | 39/50 [00:03<00:00, 13.74it/s]
+
+
+
+val:  94%|███████████████████████████████████████████████████████▍   | 47/50 [00:03<00:00, 13.97it/s]
+
+
+val:  54%|███████████████████████████████▊                           | 27/50 [00:02<00:01, 13.73it/s]
+
+
+
+val:  70%|█████████████████████████████████████████▎                 | 35/50 [00:02<00:01, 13.93it/s]
+
+
+
+val:  82%|████████████████████████████████████████████████▍          | 41/50 [00:03<00:00, 14.02it/s]
+
+
+
+train:   0%|                                                                   | 0/7 [00:00<?, ?it/s]
+
+
+val:  58%|██████████████████████████████████▏                        | 29/50 [00:02<00:01, 13.91it/s]
+
+
+
+val:  74%|███████████████████████████████████████████▋               | 37/50 [00:02<00:00, 13.88it/s]
+
+
+
+val:  90%|█████████████████████████████████████████████████████      | 45/50 [00:03<00:00, 13.88it/s]
+
+
+
+train:   0%|                                                                   | 0/7 [00:00<?, ?it/s]
+
+
+val:  66%|██████████████████████████████████████▉                    | 33/50 [00:02<00:01, 13.86it/s]
+
+
+
+val:  82%|████████████████████████████████████████████████▍          | 41/50 [00:03<00:00, 13.91it/s]
+
+
+
+val:  98%|█████████████████████████████████████████████████████████▊ | 49/50 [00:03<00:00, 14.19it/s]
+
+
+val:  58%|██████████████████████████████████▏                        | 29/50 [00:02<00:01, 13.97it/s]
+
+
+
+val:  78%|██████████████████████████████████████████████             | 39/50 [00:02<00:00, 14.17it/s]
+
+
+
+val:  94%|███████████████████████████████████████████████████████▍   | 47/50 [00:03<00:00, 13.73it/s]
+
+
+val:  54%|███████████████████████████████▊                           | 27/50 [00:02<00:01, 13.98it/s]
+
+
+
+val:  70%|█████████████████████████████████████████▎                 | 35/50 [00:02<00:01, 13.83it/s]
+
+
+
+val:  86%|██████████████████████████████████████████████████▋        | 43/50 [00:03<00:00, 14.07it/s]
+
+epoch 26/30, train: total_loss=5388348.5000, nll=60.5296, pix_l=5388283.7143, vgg_l=4.2849, val: psnr=4.8759, 5.4s 2.5m/2.9m
+
+train:   0%|                                                                   | 0/7 [00:00<?, ?it/s]
+
+
+val:  62%|████████████████████████████████████▌                      | 31/50 [00:02<00:01, 13.48it/s]
+
+
+
+val:  78%|██████████████████████████████████████████████             | 39/50 [00:02<00:00, 13.97it/s]
+
+
+
+val:  94%|███████████████████████████████████████████████████████▍   | 47/50 [00:03<00:00, 13.92it/s]
+
+epoch 30/30, train: total_loss=4640832.0000, nll=60.5116, pix_l=4640767.3571, vgg_l=4.1813, val: psnr=4.8826, 5.5s 2.9m/2.9m

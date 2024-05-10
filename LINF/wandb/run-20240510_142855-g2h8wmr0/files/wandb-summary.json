@@ -1,0 +1,1 @@
+{"loss/total_loss": 2463.626953125, "loss/log_p": 49.365169525146484, "loss/pixel_loss": 2410.003173828125, "loss/vgg_loss": 4.258610248565674, "_timestamp": 1715351640.1948006, "_runtime": 304.50174164772034, "_step": 999, "_wandb": {"runtime": 305}}
