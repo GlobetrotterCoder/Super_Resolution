@@ -1,0 +1,1 @@
+python test.py  # specify the path of the test images inside the test.py file
