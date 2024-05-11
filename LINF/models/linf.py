@@ -12,7 +12,7 @@ from utils import make_coord
 class LINF(nn.Module):
 
     class WaveletTransformLayer(nn.Module):
-        def __init__(self, wavelet_name='haar'):
+        def __init__(self, wavelet_name='sym2'):
             super().__init__()
             self.wavelet = pywt.Wavelet(wavelet_name)
 
